@@ -13,6 +13,10 @@ asarUnpack:
   - resources/**
 win:
   executableName: local-transcribe-vite
+  publish:
+    provider: github
+    protocol: https
+
 nsis:
   artifactName: ${name}-${version}-setup.${ext}
   shortcutName: ${productName}
